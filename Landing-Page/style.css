@@ -1,11 +1,17 @@
 * {
     margin: 0;
     padding: 0;
+   
   }
   .navbar {
-    background-color: #333;
+    /* background-color: #333; */
+    background: linear-gradient(to right,#1C0B52,#2980b9,#230D65, #2980b9,#3F144C);
     color: white;
     padding: 10px 0;
+    display: block;
+    position: absolute; 
+    width: 100%;
+    /* Linear Gradient from #3498db (Light blue) to #2980b9 (Slightly darker blue) */
   }
   .container {
     max-width: 80rem;
@@ -37,6 +43,81 @@
   .nav-links a:hover {
     color: #ffc107;
   }
+ 
+  .main {
+    /* background-image: url('./'); */
+    background-size: cover;
+    background-position: center;
+    color: black;
+    text-align: center;
+    padding: 150px 0;
+}
+
+.main-content {
+    max-width: 800px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+.cta-button {
+  display: inline-block;
+  background-color: #ff9800;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+
+}
+.cta-button:hover {
+  background-color: #e65100;
+}
+.main h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.main p {
+  font-size: 1.25rem;
+  margin-bottom: 30px;
+}
+
+/* Features section styles */
+.features {
+    display: flex;
+    justify-content: space-around;
+    padding: 4rem 0;
+    background-color: #f4f4f4;
+}
+
+.feature {
+    text-align: center;
+    padding: 2rem;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    padding: 2rem;
+    background-color: #333;
+    color: white;
+}
+.footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0; 
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+
+  
 
 
   

@@ -1,0 +1,86 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #181227;
+    color:white;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    /* background-color: #333; */
+    color: #fff;
+    padding: 1rem;
+  }
+  .navbar {
+    padding:3px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    /* justify-content: space-between; */
+    width:100%;
+    font-family: Raleway,serif;
+    font-size: 20px;
+    background-color: transparent;
+  }
+  nav ul {
+    list-style: none;
+    display: flex;
+  }
+  .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  nav li {
+    margin-right: 6rem;
+    display: flex;
+    justify-content: end;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .intro-section {
+    padding: 2rem;
+    color: #fff;
+    margin-top: 40px;
+  }
+  
+  .intro-section h1 {
+    font-size: 2.5rem;
+  }
+  
+  .intro-section h2 {
+    font-size: 2rem;
+  }
+  
+  .intro-section p {
+    margin-top: 1rem;
+  }
+  
+  footer {
+
+    bottom: 0;
+    position: sticky;
+    text-align: center;
+    padding: 1rem;
+    bottom: 0px;
+  }
+  .findme{
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+    font-size: 23px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  .logos{
+    margin-top: 2rem;
+  }
+  #logo{
+    margin-left: 20px;
+  }

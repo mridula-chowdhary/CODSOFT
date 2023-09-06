@@ -6,10 +6,8 @@
     background-color: #181227;
     color:white;
     font-family: 'Raleway', sans-serif;
-  }
-  
-  
-  header {
+  } 
+ header {
     /* background-color: #333; */
     color: #fff;
     padding: 1rem;
@@ -18,15 +16,15 @@
     padding:3px;
     display: flex;
     align-items: center;
-    justify-content: flex-end;
-    /* justify-content: space-between; */
-    width:100%;
+    /* justify-content: flex-end; */
+    /* width:100%; */
     font-size: 20px;
     background-color: transparent;
   }
   nav ul {
     list-style: none;
     display: flex;
+
   }
   .content{
     display: flex;
@@ -38,6 +36,7 @@
     margin-right: 6rem;
     display: flex;
     justify-content: end;
+   
   }
   
   nav a {
@@ -53,7 +52,7 @@
    margin-right: 30px;
     width: 100%;
     color: #fff;
-    margin-top: 40px;
+    /* margin-top: 1rem; */
   }
   
   .intro-section h1 {
@@ -68,7 +67,7 @@
   .intro-section p {
     margin-top: 1rem;
     font-size: 19px;
-    line-height: 33px;
+    line-height: 39px;
   }
   .project{
     display: contents;
@@ -81,6 +80,9 @@
   }
   .project h2{
     text-align: center;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    font-size: 38px;
   }
   .photo{
     padding:2rem;
@@ -119,18 +121,22 @@
     height: 30px;
   }
   .findme{
-    margin-top: 5rem;
-    margin-bottom: 6rem;
+    margin-top: 3rem;
+    margin-bottom: 4rem;
     font-size: 23px;
-    text-decoration: bold;
     text-align: center;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 100%;
+   line-height: 80px;
+  }
+  .findme h2{
+    font-weight: bold;
+    font-size: 38px;
   }
   .logos{
     margin-top: 2rem;
   }
   #logo{
-    margin-left: 20px;
+    margin-left: 2rem;
   }
   #know-me{
         display: flex;
@@ -138,14 +144,17 @@
         align-items: center;
         font-size: 20px;
   }
+  #know-me h2{
+    font-size: 38px;
+    font-weight: bold;
+  }
   #know-me p{
     margin-top: 4rem;
     text-align: center;
-    padding-bottom: 2rem;
+    padding-bottom: 1rem;
   }
   .strive{
-    font-size: 20px;
-    
+    font-size: 25px;
   }
   .apart{
     margin-bottom: 2rem;

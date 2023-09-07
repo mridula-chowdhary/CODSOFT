@@ -8,18 +8,15 @@
     font-family: 'Raleway', sans-serif;
   } 
  header {
-    /* background-color: #333; */
-    color: #fff;
-    padding: 1rem;
+    padding:18px;
+    display: flex;
+    justify-content: flex-end; 
+    align-items: center;
   }
   .navbar {
     padding:3px;
-    display: flex;
-    align-items: center;
-    /* justify-content: flex-end; */
-    /* width:100%; */
     font-size: 20px;
-    background-color: transparent;
+
   }
   nav ul {
     list-style: none;
@@ -69,7 +66,7 @@
     font-size: 19px;
     line-height: 39px;
   }
-  .project{
+  #projects{
     display: contents;
   }
   .cards{
@@ -78,7 +75,7 @@
     justify-content: center;
 
   }
-  .project h2{
+  #projects h2{
     text-align: center;
     font-weight: bold;
     margin-bottom: 2rem;
@@ -155,6 +152,7 @@
   }
   .strive{
     font-size: 25px;
+    margin-bottom: 5rem;
   }
   .apart{
     margin-bottom: 2rem;
@@ -191,3 +189,44 @@
  .prof li a{
   text-transform: none;
  }
+ /* Style the footer section */
+footer {
+  position: relative;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer-content {
+  display: flex;
+  /* justify-content: space-between; */
+  justify-content: center;
+  align-items: center;
+ width: 900px;
+  margin: 0 auto;
+}
+
+.developed-by {
+  /* flex-grow: 0; */
+  text-align: right;
+  padding-right: 10px; /* Add some padding on the right side */
+}
+
+.contact-icons {
+  display: flex; /* Make the icons container a flex container */
+  align-items: center; /* Vertically align the icons */
+  
+}
+
+.footer-icon {
+  text-decoration: none;
+  margin-left: 3rem;
+  font-size: 24px;
+}
+
+/* Style Font Awesome icons */
+/* .fa-envelope,
+.fa-phone,
+.fa-linkedin {
+  vertical-align: middle;
+} */

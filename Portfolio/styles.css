@@ -66,12 +66,9 @@
     font-size: 19px;
     line-height: 39px;
   }
-  #projects{
-    display: contents;
-  }
   .cards{
     display: flex;
-    width: 80%;
+    width: 100%;
     justify-content: center;
 
   }
@@ -131,6 +128,7 @@
   }
   .logos{
     margin-top: 2rem;
+    cursor: pointer;
   }
   #logo{
     margin-left: 2rem;
